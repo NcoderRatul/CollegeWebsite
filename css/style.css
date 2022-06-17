@@ -1,0 +1,185 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title
+{
+    background-color: rgb(248, 241, 238) ;
+}
+.heading
+{
+    text-align: left;
+    margin-left: 90px;
+    padding: 30px;
+    font-family: Times New Roman;
+}  
+.logo img
+{
+   width: 100px;
+   position: absolute;
+   margin-top: 5px;
+   margin-left: 15px;  
+}
+.contact
+{
+    position: absolute;
+    left: 1050px;
+    top: 20px; 
+}
+.contact ul 
+{
+    text-decoration: none;  
+    list-style: none;
+    padding: 5px; 
+}
+.contact ul li
+{
+    padding: 5px;
+}
+.contact .fa
+{
+    margin-right: 5px;
+    
+}
+body
+{   
+    font-family: sans-serif;   
+}
+.menu-bar
+{
+    background-color: rgb(9, 9, 95);
+    text-align: center;  
+       
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style: none;
+    
+}
+.menu-bar ul li
+{
+    width: 200px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+}
+.highlight
+{
+    background-color:orangered;
+    border-radius: 5px;
+      
+}
+.menu-bar ul li a:hover
+{
+    color: orange;    
+}
+.menu-bar .fa
+{
+    margin-right: 5px;
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background-color: rgba(18, 2, 110, 0.4);
+    
+    
+}
+.menu-bar ul li:hover .sub-menu-1 ul
+{
+    display: block;
+    margin-top: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 170px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    
+}
+.slider 
+{
+    width: 1900px;
+    height: 650px;   
+    background: url('img1.jpg');
+    background-size: 1900px 650px; 
+    animation: slide 20s infinite;  
+}
+@keyframes slide
+{
+    25%{
+        background: url('img2.jpg');
+        background-size: 1900px 650px;
+    }
+    50%{
+        background: url('img3.jpg');
+        background-size:1900px 650px;
+    }
+    75%{
+        background: url('img4.jpg');
+        background-size: 1900px 650px;
+    }
+    100%{
+        background: url('img1.jpg');
+        background-size: 1900px 650px;
+       }
+ }
+.links
+{
+    margin-top:5px;
+    padding-top: 15px;
+    color:  orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.bottom
+{
+    background-color: rgb(13, 4, 43);
+    text-align: center;
+}
+.bottom ul
+{
+    display: inline-flex;
+    list-style: none;
+}  
+.bottom ul li
+{
+    width: 250px;
+    margin-top: 15px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    
+}  
+.bottom ul li a
+{
+    text-decoration: none;
+    color: white;
+}
+.bottom ul li a:hover
+{
+    color: orange;
+    font-style: oblique;
+}
+.bottom .fa
+{
+    margin-right: 5px;
+}
+
+
+
+    
+
+

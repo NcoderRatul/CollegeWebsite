@@ -1,0 +1,16 @@
+.notice {
+  margin: 50px 50px;
+}
+.notice img {
+  width: 280px;
+  padding: 5px;
+  margin: 83px;
+  transition: 0.8s;
+  border: 1px solid;
+}
+.notice img:hover {
+  transform: scale(1.7);
+  border: 1px dashed red;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}

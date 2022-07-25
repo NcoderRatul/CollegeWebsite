@@ -110,7 +110,7 @@ if(empty($err))
 <h3>Please Login Here:</h3>
 <hr>
 
-<form action="" method="post">
+<form action="" method="post" enctype="multipart/form-data">
   <div class="form-group">
     <label for="exampleInputEmail1">Username</label>
     <input type="text" name="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Username">
